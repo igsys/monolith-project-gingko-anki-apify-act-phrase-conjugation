@@ -1,3 +1,4 @@
+// Made some changes
 const Apify = require('apify');
 const typeCheck = require('type-check').typeCheck;
 
