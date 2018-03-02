@@ -4,7 +4,8 @@ const typeCheck = require('type-check').typeCheck;
 
 // Definition of the input
 const INPUT_TYPE = `{
-    message: Maybe String,
+    dict_def01_meaning: Maybe String,
+    dict_def01_eg01_mono: Maybe String,
 }`;
 
 Apify.main(async () => {
@@ -20,11 +21,13 @@ Apify.main(async () => {
     }
 
     // Here's the place for your magic...
-    console.log(`Input message: ${input.message}`);
+    // console.log(`Input message: ${input.message}`);
+    console.log(`Input phrase: ${input.dict_def01_eg01_mono}`);
 
     // Store the output
     const output = {
-        message: `${input.message} Hello my friend!`
+        // message: `${input.message} Hello my friend!`
+        phrase: `${input.dict_def01_eg01_mono}`
     };
     await Apify.setValue('OUTPUT', output)
 });
