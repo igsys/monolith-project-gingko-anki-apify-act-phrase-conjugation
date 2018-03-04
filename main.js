@@ -78,32 +78,12 @@ Apify.main(async () => {
                 grammar: item.grammar,
                 meaning: item.meaning,
                 level: item.level,
-                // mono: replace(example.mono, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `),
                 mono: phrase,
                 tenses: uniq(form_tenses),
                 trans: example.trans
             })
         })
     })
-
-    // def.definitions.forEach(item => {
-    //     item.examples.forEach(example => {
-    //         conj.conjugation.forEach(word => {
-    //             if (example.mono.includes(word)) {
-    //                 // console.log('example.mono:', example.mono)
-    //                 console.log('example.mono.replace', replace(example.mono, word, `{{c1:${word}}}`))
-    //                 phrases.push({
-    //                     keyword: input.query,
-    //                     grammar: item.grammar,
-    //                     meaning: item.meaning,
-    //                     level: item.level,
-    //                     mono: replace(example.mono, word, `{{c1:${word}}}`),
-    //                     trans: example.trans
-    //                 })
-    //             }
-    //         });
-    //     })
-    // })
 
     const output = {
         phrases
