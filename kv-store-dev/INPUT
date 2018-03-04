@@ -1,4 +1,5 @@
 {
-  "dict_def01_meaning": "have",
-  "dict_def01_eg01_mono": "J'ai les cheveux longs."
+  "dictionary": "english-french",
+  "source": "french",
+  "query": "passer"
 }

@@ -1,0 +1,507 @@
+{
+  "name": "apify/igsys/conjugation-wr",
+  "crawledAt": "2018-03-04T19:19:30.992Z",
+  "input": {
+    "source": "french",
+    "query": "passer",
+    "dictionary": "english-french"
+  },
+  "uri": "http://conjugator.reverso.net/conjugation-french-verb-passer.html",
+  "results": [
+    {
+      "form": "infinitif",
+      "tense": "présent",
+      "conjugation": "passer"
+    },
+    {
+      "form": "participe présent",
+      "tense": "présent",
+      "conjugation": "passant"
+    },
+    {
+      "form": "participe passé",
+      "tense": "passé",
+      "conjugation": "passé"
+    },
+    {
+      "form": "indicatif",
+      "tense": "présent",
+      "conjugation": "passe"
+    },
+    {
+      "form": "indicatif",
+      "tense": "présent",
+      "conjugation": "passes"
+    },
+    {
+      "form": "indicatif",
+      "tense": "présent",
+      "conjugation": "passe"
+    },
+    {
+      "form": "indicatif",
+      "tense": "présent",
+      "conjugation": "passons"
+    },
+    {
+      "form": "indicatif",
+      "tense": "présent",
+      "conjugation": "passez"
+    },
+    {
+      "form": "indicatif",
+      "tense": "présent",
+      "conjugation": "passent"
+    },
+    {
+      "form": "indicatif",
+      "tense": "imparfait",
+      "conjugation": "passais"
+    },
+    {
+      "form": "indicatif",
+      "tense": "imparfait",
+      "conjugation": "passais"
+    },
+    {
+      "form": "indicatif",
+      "tense": "imparfait",
+      "conjugation": "passait"
+    },
+    {
+      "form": "indicatif",
+      "tense": "imparfait",
+      "conjugation": "passions"
+    },
+    {
+      "form": "indicatif",
+      "tense": "imparfait",
+      "conjugation": "passiez"
+    },
+    {
+      "form": "indicatif",
+      "tense": "imparfait",
+      "conjugation": "passaient"
+    },
+    {
+      "form": "indicatif",
+      "tense": "passé simple",
+      "conjugation": "passai"
+    },
+    {
+      "form": "indicatif",
+      "tense": "passé simple",
+      "conjugation": "passas"
+    },
+    {
+      "form": "indicatif",
+      "tense": "passé simple",
+      "conjugation": "passa"
+    },
+    {
+      "form": "indicatif",
+      "tense": "passé simple",
+      "conjugation": "passâmes"
+    },
+    {
+      "form": "indicatif",
+      "tense": "passé simple",
+      "conjugation": "passâtes"
+    },
+    {
+      "form": "indicatif",
+      "tense": "passé simple",
+      "conjugation": "passèrent"
+    },
+    {
+      "form": "indicatif",
+      "tense": "futur simple",
+      "conjugation": "passerai"
+    },
+    {
+      "form": "indicatif",
+      "tense": "futur simple",
+      "conjugation": "passeras"
+    },
+    {
+      "form": "indicatif",
+      "tense": "futur simple",
+      "conjugation": "passera"
+    },
+    {
+      "form": "indicatif",
+      "tense": "futur simple",
+      "conjugation": "passerons"
+    },
+    {
+      "form": "indicatif",
+      "tense": "futur simple",
+      "conjugation": "passerez"
+    },
+    {
+      "form": "indicatif",
+      "tense": "futur simple",
+      "conjugation": "passeront"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé composé",
+      "conjugation": "suis passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé composé",
+      "conjugation": "es passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé composé",
+      "conjugation": "est passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé composé",
+      "conjugation": "sommes passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé composé",
+      "conjugation": "êtes passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé composé",
+      "conjugation": "sont passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "plus-que-parfait",
+      "conjugation": "étais passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "plus-que-parfait",
+      "conjugation": "étais passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "plus-que-parfait",
+      "conjugation": "était passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "plus-que-parfait",
+      "conjugation": "étions passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "plus-que-parfait",
+      "conjugation": "étiez passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "plus-que-parfait",
+      "conjugation": "étaient passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé antérieur",
+      "conjugation": "fus passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé antérieur",
+      "conjugation": "fus passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé antérieur",
+      "conjugation": "fut passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé antérieur",
+      "conjugation": "fûmes passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé antérieur",
+      "conjugation": "fûtes passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "passé antérieur",
+      "conjugation": "furent passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "futur antérieur",
+      "conjugation": "serai passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "futur antérieur",
+      "conjugation": "seras passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "futur antérieur",
+      "conjugation": "sera passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "futur antérieur",
+      "conjugation": "serons passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "futur antérieur",
+      "conjugation": "serez passé"
+    },
+    {
+      "form": "formes composées / compound tenses",
+      "tense": "futur antérieur",
+      "conjugation": "seront passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "présent",
+      "conjugation": "passe"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "présent",
+      "conjugation": "passes"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "présent",
+      "conjugation": "passe"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "présent",
+      "conjugation": "passions"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "présent",
+      "conjugation": "passiez"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "présent",
+      "conjugation": "passent"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "imparfait",
+      "conjugation": "passasse"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "imparfait",
+      "conjugation": "passasses"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "imparfait",
+      "conjugation": "passât"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "imparfait",
+      "conjugation": "passassions"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "imparfait",
+      "conjugation": "passassiez"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "imparfait",
+      "conjugation": "passassent"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "passé",
+      "conjugation": "sois passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "passé",
+      "conjugation": "sois passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "passé",
+      "conjugation": "soit passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "passé",
+      "conjugation": "soyons passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "passé",
+      "conjugation": "soyez passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "passé",
+      "conjugation": "soient passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "plus-que-parfait",
+      "conjugation": "fusse passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "plus-que-parfait",
+      "conjugation": "fusses passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "plus-que-parfait",
+      "conjugation": "fût passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "plus-que-parfait",
+      "conjugation": "fussions passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "plus-que-parfait",
+      "conjugation": "fussiez passé"
+    },
+    {
+      "form": "subjonctif",
+      "tense": "plus-que-parfait",
+      "conjugation": "fussent passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "présent",
+      "conjugation": "passerais"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "présent",
+      "conjugation": "passerais"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "présent",
+      "conjugation": "passerait"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "présent",
+      "conjugation": "passerions"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "présent",
+      "conjugation": "passeriez"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "présent",
+      "conjugation": "passeraient"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé",
+      "conjugation": "serais passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé",
+      "conjugation": "serais passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé",
+      "conjugation": "serait passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé",
+      "conjugation": "serions passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé",
+      "conjugation": "seriez passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé",
+      "conjugation": "seraient passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé II",
+      "conjugation": "fusse passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé II",
+      "conjugation": "fusses passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé II",
+      "conjugation": "fût passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé II",
+      "conjugation": "fussions passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé II",
+      "conjugation": "fussiez passé"
+    },
+    {
+      "form": "conditionnel",
+      "tense": "passé II",
+      "conjugation": "fussent passé"
+    },
+    {
+      "form": "impératif",
+      "tense": "présent",
+      "conjugation": "passe !"
+    },
+    {
+      "form": "impératif",
+      "tense": "présent",
+      "conjugation": "passons !"
+    },
+    {
+      "form": "impératif",
+      "tense": "présent",
+      "conjugation": "passez !"
+    },
+    {
+      "form": "impératif",
+      "tense": "passé",
+      "conjugation": "sois passé"
+    },
+    {
+      "form": "impératif",
+      "tense": "passé",
+      "conjugation": "soyons passé"
+    },
+    {
+      "form": "impératif",
+      "tense": "passé",
+      "conjugation": "soyez passé"
+    }
+  ]
+}
