@@ -1,6 +1,6 @@
 {
   "name": "apify/igsys/conjugation-wr",
-  "crawledAt": "2018-03-05T03:27:07.400Z",
+  "crawledAt": "2018-03-05T04:52:22.008Z",
   "input": {
     "source": "french",
     "query": "passer",
@@ -9,598 +9,1544 @@
   "uri": "http://conjugator.reverso.net/conjugation-french-verb-passer.html",
   "results": [
     {
-      "form": "infinitif",
+      "form": "inf",
       "tense": "",
       "pronoun": "",
+      "gender": "m",
       "conjugation": "passer"
     },
     {
-      "form": "participe présent",
+      "form": "par-pré",
       "tense": "",
       "pronoun": "",
+      "gender": "m",
       "conjugation": "passant"
     },
     {
-      "form": "participe passé",
+      "form": "par-pas",
       "tense": "",
       "pronoun": "",
+      "gender": "m",
       "conjugation": "passé"
     },
     {
-      "form": "indicatif",
-      "tense": "présent",
+      "form": "ind",
+      "tense": "pré",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "passe"
     },
     {
-      "form": "indicatif",
-      "tense": "présent",
+      "form": "ind",
+      "tense": "pré",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "passes"
     },
     {
-      "form": "indicatif",
-      "tense": "présent",
+      "form": "ind",
+      "tense": "pré",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "passe"
     },
     {
-      "form": "indicatif",
-      "tense": "présent",
+      "form": "ind",
+      "tense": "pré",
       "pronoun": "1p",
+      "gender": "m",
       "conjugation": "passons"
     },
     {
-      "form": "indicatif",
-      "tense": "présent",
+      "form": "ind",
+      "tense": "pré",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "passez"
     },
     {
-      "form": "indicatif",
-      "tense": "présent",
+      "form": "ind",
+      "tense": "pré",
       "pronoun": "3p",
+      "gender": "m",
       "conjugation": "passent"
     },
     {
-      "form": "indicatif",
-      "tense": "imparfait",
+      "form": "ind",
+      "tense": "impar",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "passais"
     },
     {
-      "form": "indicatif",
-      "tense": "imparfait",
+      "form": "ind",
+      "tense": "impar",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "passais"
     },
     {
-      "form": "indicatif",
-      "tense": "imparfait",
+      "form": "ind",
+      "tense": "impar",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "passait"
     },
     {
-      "form": "indicatif",
-      "tense": "imparfait",
+      "form": "ind",
+      "tense": "impar",
       "pronoun": "1p",
+      "gender": "m",
       "conjugation": "passions"
     },
     {
-      "form": "indicatif",
-      "tense": "imparfait",
+      "form": "ind",
+      "tense": "impar",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "passiez"
     },
     {
-      "form": "indicatif",
-      "tense": "imparfait",
+      "form": "ind",
+      "tense": "impar",
       "pronoun": "3p",
+      "gender": "m",
       "conjugation": "passaient"
     },
     {
-      "form": "indicatif",
-      "tense": "passé simple",
+      "form": "ind",
+      "tense": "pas-sim",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "passai"
     },
     {
-      "form": "indicatif",
-      "tense": "passé simple",
+      "form": "ind",
+      "tense": "pas-sim",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "passas"
     },
     {
-      "form": "indicatif",
-      "tense": "passé simple",
+      "form": "ind",
+      "tense": "pas-sim",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "passa"
     },
     {
-      "form": "indicatif",
-      "tense": "passé simple",
+      "form": "ind",
+      "tense": "pas-sim",
       "pronoun": "1p",
+      "gender": "m",
       "conjugation": "passâmes"
     },
     {
-      "form": "indicatif",
-      "tense": "passé simple",
+      "form": "ind",
+      "tense": "pas-sim",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "passâtes"
     },
     {
-      "form": "indicatif",
-      "tense": "passé simple",
+      "form": "ind",
+      "tense": "pas-sim",
       "pronoun": "3p",
+      "gender": "m",
       "conjugation": "passèrent"
     },
     {
-      "form": "indicatif",
-      "tense": "futur simple",
+      "form": "ind",
+      "tense": "fut-sim",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "passerai"
     },
     {
-      "form": "indicatif",
-      "tense": "futur simple",
+      "form": "ind",
+      "tense": "fut-sim",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "passeras"
     },
     {
-      "form": "indicatif",
-      "tense": "futur simple",
+      "form": "ind",
+      "tense": "fut-sim",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "passera"
     },
     {
-      "form": "indicatif",
-      "tense": "futur simple",
+      "form": "ind",
+      "tense": "fut-sim",
       "pronoun": "1p",
+      "gender": "m",
       "conjugation": "passerons"
     },
     {
-      "form": "indicatif",
-      "tense": "futur simple",
+      "form": "ind",
+      "tense": "fut-sim",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "passerez"
     },
     {
-      "form": "indicatif",
-      "tense": "futur simple",
+      "form": "ind",
+      "tense": "fut-sim",
       "pronoun": "3p",
+      "gender": "m",
       "conjugation": "passeront"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé composé",
+      "form": "cmp",
+      "tense": "pas-cmp",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "suis passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé composé",
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "1s",
+      "gender": "f",
+      "conjugation": "suis passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "es passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé composé",
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "2s",
+      "gender": "f",
+      "conjugation": "es passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "est passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé composé",
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "3s",
+      "gender": "f",
+      "conjugation": "est passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
       "pronoun": "1p",
+      "gender": "m",
+      "conjugation": "sommes passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "sommes passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "1p",
+      "gender": "m",
       "conjugation": "sommes passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé composé",
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "sommes passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "êtes passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé composé",
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "êtes passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "êtes passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "êtes passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "êtes passé"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "êtes passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
       "pronoun": "3p",
+      "gender": "m",
+      "conjugation": "sont passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "sont passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "3p",
+      "gender": "m",
       "conjugation": "sont passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "plus-que-parfait",
+      "form": "cmp",
+      "tense": "pas-cmp",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "sont passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "étais passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "plus-que-parfait",
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "1s",
+      "gender": "f",
+      "conjugation": "étais passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "étais passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "plus-que-parfait",
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "2s",
+      "gender": "f",
+      "conjugation": "étais passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "était passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "plus-que-parfait",
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "3s",
+      "gender": "f",
+      "conjugation": "était passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
       "pronoun": "1p",
+      "gender": "m",
+      "conjugation": "étions passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "étions passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "1p",
+      "gender": "m",
       "conjugation": "étions passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "plus-que-parfait",
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "étions passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "étiez passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "plus-que-parfait",
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "étiez passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "étiez passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "étiez passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "étiez passé"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "étiez passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
       "pronoun": "3p",
+      "gender": "m",
+      "conjugation": "étaient passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "étaient passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "3p",
+      "gender": "m",
       "conjugation": "étaient passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé antérieur",
+      "form": "cmp",
+      "tense": "plus-que",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "étaient passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "fus passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé antérieur",
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "1s",
+      "gender": "f",
+      "conjugation": "fus passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "fus passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé antérieur",
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "2s",
+      "gender": "f",
+      "conjugation": "fus passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "fut passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé antérieur",
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "3s",
+      "gender": "f",
+      "conjugation": "fut passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
       "pronoun": "1p",
+      "gender": "m",
+      "conjugation": "fûmes passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "fûmes passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "1p",
+      "gender": "m",
       "conjugation": "fûmes passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé antérieur",
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "fûmes passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "fûtes passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "passé antérieur",
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "fûtes passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "fûtes passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "fûtes passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "fûtes passé"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "fûtes passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
       "pronoun": "3p",
+      "gender": "m",
+      "conjugation": "furent passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "furent passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "3p",
+      "gender": "m",
       "conjugation": "furent passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "futur antérieur",
+      "form": "cmp",
+      "tense": "pas-ant",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "furent passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "serai passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "futur antérieur",
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "1s",
+      "gender": "f",
+      "conjugation": "serai passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "seras passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "futur antérieur",
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "2s",
+      "gender": "f",
+      "conjugation": "seras passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "sera passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "futur antérieur",
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "3s",
+      "gender": "f",
+      "conjugation": "sera passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
       "pronoun": "1p",
+      "gender": "m",
+      "conjugation": "serons passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "serons passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "1p",
+      "gender": "m",
       "conjugation": "serons passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "futur antérieur",
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "serons passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "serez passé"
     },
     {
-      "form": "formes composées / compound tenses",
-      "tense": "futur antérieur",
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "serez passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "serez passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "serez passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "serez passé"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "serez passée"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
       "pronoun": "3p",
+      "gender": "m",
+      "conjugation": "seront passés"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "seront passées"
+    },
+    {
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "3p",
+      "gender": "m",
       "conjugation": "seront passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "présent",
+      "form": "cmp",
+      "tense": "fut-ant",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "seront passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "pré",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "passe"
     },
     {
-      "form": "subjonctif",
-      "tense": "présent",
+      "form": "sbj",
+      "tense": "pré",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "passes"
     },
     {
-      "form": "subjonctif",
-      "tense": "présent",
+      "form": "sbj",
+      "tense": "pré",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "passe"
     },
     {
-      "form": "subjonctif",
-      "tense": "présent",
+      "form": "sbj",
+      "tense": "pré",
       "pronoun": "1p",
+      "gender": "m",
       "conjugation": "passions"
     },
     {
-      "form": "subjonctif",
-      "tense": "présent",
+      "form": "sbj",
+      "tense": "pré",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "passiez"
     },
     {
-      "form": "subjonctif",
-      "tense": "présent",
+      "form": "sbj",
+      "tense": "pré",
       "pronoun": "3p",
+      "gender": "m",
       "conjugation": "passent"
     },
     {
-      "form": "subjonctif",
-      "tense": "imparfait",
+      "form": "sbj",
+      "tense": "impar",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "passasse"
     },
     {
-      "form": "subjonctif",
-      "tense": "imparfait",
+      "form": "sbj",
+      "tense": "impar",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "passasses"
     },
     {
-      "form": "subjonctif",
-      "tense": "imparfait",
+      "form": "sbj",
+      "tense": "impar",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "passât"
     },
     {
-      "form": "subjonctif",
-      "tense": "imparfait",
+      "form": "sbj",
+      "tense": "impar",
       "pronoun": "1p",
+      "gender": "m",
       "conjugation": "passassions"
     },
     {
-      "form": "subjonctif",
-      "tense": "imparfait",
+      "form": "sbj",
+      "tense": "impar",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "passassiez"
     },
     {
-      "form": "subjonctif",
-      "tense": "imparfait",
+      "form": "sbj",
+      "tense": "impar",
       "pronoun": "3p",
+      "gender": "m",
       "conjugation": "passassent"
     },
     {
-      "form": "subjonctif",
-      "tense": "passé",
+      "form": "sbj",
+      "tense": "pas",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "sois passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "passé",
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "1s",
+      "gender": "f",
+      "conjugation": "sois passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "sois passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "passé",
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "2s",
+      "gender": "f",
+      "conjugation": "sois passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "soit passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "passé",
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "3s",
+      "gender": "f",
+      "conjugation": "soit passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
       "pronoun": "1p",
+      "gender": "m",
+      "conjugation": "soyons passés"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "soyons passées"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "1p",
+      "gender": "m",
       "conjugation": "soyons passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "passé",
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "soyons passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "soyez passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "passé",
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "soyez passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "soyez passés"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "soyez passées"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "soyez passé"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "soyez passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
       "pronoun": "3p",
+      "gender": "m",
+      "conjugation": "soient passés"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "soient passées"
+    },
+    {
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "3p",
+      "gender": "m",
       "conjugation": "soient passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "plus-que-parfait",
+      "form": "sbj",
+      "tense": "pas",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "soient passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "fusse passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "plus-que-parfait",
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "1s",
+      "gender": "f",
+      "conjugation": "fusse passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "fusses passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "plus-que-parfait",
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "2s",
+      "gender": "f",
+      "conjugation": "fusses passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "fût passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "plus-que-parfait",
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "3s",
+      "gender": "f",
+      "conjugation": "fût passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
       "pronoun": "1p",
+      "gender": "m",
+      "conjugation": "fussions passés"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "fussions passées"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "1p",
+      "gender": "m",
       "conjugation": "fussions passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "plus-que-parfait",
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "fussions passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "fussiez passé"
     },
     {
-      "form": "subjonctif",
-      "tense": "plus-que-parfait",
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "fussiez passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "fussiez passés"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "fussiez passées"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "fussiez passé"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "fussiez passée"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
       "pronoun": "3p",
+      "gender": "m",
+      "conjugation": "fussent passés"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "fussent passées"
+    },
+    {
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "3p",
+      "gender": "m",
       "conjugation": "fussent passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "présent",
+      "form": "sbj",
+      "tense": "plus-que",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "fussent passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pré",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "passerais"
     },
     {
-      "form": "conditionnel",
-      "tense": "présent",
+      "form": "cnd",
+      "tense": "pré",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "passerais"
     },
     {
-      "form": "conditionnel",
-      "tense": "présent",
+      "form": "cnd",
+      "tense": "pré",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "passerait"
     },
     {
-      "form": "conditionnel",
-      "tense": "présent",
+      "form": "cnd",
+      "tense": "pré",
       "pronoun": "1p",
+      "gender": "m",
       "conjugation": "passerions"
     },
     {
-      "form": "conditionnel",
-      "tense": "présent",
+      "form": "cnd",
+      "tense": "pré",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "passeriez"
     },
     {
-      "form": "conditionnel",
-      "tense": "présent",
+      "form": "cnd",
+      "tense": "pré",
       "pronoun": "3p",
+      "gender": "m",
       "conjugation": "passeraient"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé",
+      "form": "cnd",
+      "tense": "pas",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "serais passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé",
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "1s",
+      "gender": "f",
+      "conjugation": "serais passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "serais passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé",
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "2s",
+      "gender": "f",
+      "conjugation": "serais passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "serait passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé",
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "3s",
+      "gender": "f",
+      "conjugation": "serait passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
       "pronoun": "1p",
+      "gender": "m",
+      "conjugation": "serions passés"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "serions passées"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "1p",
+      "gender": "m",
       "conjugation": "serions passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé",
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "serions passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "seriez passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé",
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "seriez passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "seriez passés"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "seriez passées"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "seriez passé"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "seriez passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
       "pronoun": "3p",
+      "gender": "m",
+      "conjugation": "seraient passés"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "seraient passées"
+    },
+    {
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "3p",
+      "gender": "m",
       "conjugation": "seraient passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé II",
+      "form": "cnd",
+      "tense": "pas",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "seraient passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
       "pronoun": "1s",
+      "gender": "m",
       "conjugation": "fusse passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé II",
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "1s",
+      "gender": "f",
+      "conjugation": "fusse passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "fusses passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé II",
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "2s",
+      "gender": "f",
+      "conjugation": "fusses passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
       "pronoun": "3s",
+      "gender": "m",
       "conjugation": "fût passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé II",
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "3s",
+      "gender": "f",
+      "conjugation": "fût passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
       "pronoun": "1p",
+      "gender": "m",
+      "conjugation": "fussions passés"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "fussions passées"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "1p",
+      "gender": "m",
       "conjugation": "fussions passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé II",
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "fussions passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "fussiez passé"
     },
     {
-      "form": "conditionnel",
-      "tense": "passé II",
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "fussiez passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "fussiez passés"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "fussiez passées"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "fussiez passé"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "fussiez passée"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
       "pronoun": "3p",
+      "gender": "m",
+      "conjugation": "fussent passés"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "fussent passées"
+    },
+    {
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "3p",
+      "gender": "m",
       "conjugation": "fussent passé"
     },
     {
-      "form": "impératif",
-      "tense": "présent",
-      "pronoun": "2s",
-      "conjugation": "passe !"
+      "form": "cnd",
+      "tense": "pasII",
+      "pronoun": "3p",
+      "gender": "f",
+      "conjugation": "fussent passée"
     },
     {
-      "form": "impératif",
-      "tense": "présent",
+      "form": "imp",
+      "tense": "pré",
+      "pronoun": "2s",
+      "gender": "m",
+      "conjugation": "passe"
+    },
+    {
+      "form": "imp",
+      "tense": "pré",
       "pronoun": "1p",
-      "conjugation": "passons !"
+      "gender": "m",
+      "conjugation": "passons"
     },
     {
-      "form": "impératif",
-      "tense": "présent",
+      "form": "imp",
+      "tense": "pré",
       "pronoun": "2p",
-      "conjugation": "passez !"
+      "gender": "m",
+      "conjugation": "passez"
     },
     {
-      "form": "impératif",
-      "tense": "passé",
+      "form": "imp",
+      "tense": "pas",
       "pronoun": "2s",
+      "gender": "m",
       "conjugation": "sois passé"
     },
     {
-      "form": "impératif",
-      "tense": "passé",
+      "form": "imp",
+      "tense": "pas",
+      "pronoun": "2s",
+      "gender": "f",
+      "conjugation": "sois passée"
+    },
+    {
+      "form": "imp",
+      "tense": "pas",
       "pronoun": "1p",
+      "gender": "m",
+      "conjugation": "soyons passés"
+    },
+    {
+      "form": "imp",
+      "tense": "pas",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "soyons passées"
+    },
+    {
+      "form": "imp",
+      "tense": "pas",
+      "pronoun": "1p",
+      "gender": "m",
       "conjugation": "soyons passé"
     },
     {
-      "form": "impératif",
-      "tense": "passé",
+      "form": "imp",
+      "tense": "pas",
+      "pronoun": "1p",
+      "gender": "f",
+      "conjugation": "soyons passée"
+    },
+    {
+      "form": "imp",
+      "tense": "pas",
       "pronoun": "2p",
+      "gender": "m",
       "conjugation": "soyez passé"
+    },
+    {
+      "form": "imp",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "soyez passée"
+    },
+    {
+      "form": "imp",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "soyez passés"
+    },
+    {
+      "form": "imp",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "soyez passées"
+    },
+    {
+      "form": "imp",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "m",
+      "conjugation": "soyez passé"
+    },
+    {
+      "form": "imp",
+      "tense": "pas",
+      "pronoun": "2p",
+      "gender": "f",
+      "conjugation": "soyez passée"
     }
   ]
 }

@@ -61,28 +61,49 @@ Apify.main(async () => {
     const [def, conj] = response;
     let phrases = [];
 
+    // replace conjugations
     def.definitions.forEach(item => {
         item.examples.forEach(example => {
+            // initialization
             let phrase = '';
             let form_tenses = [];
+
+            // replace conjugations to anki card syntax
             conj.results.forEach(verb => {
                 if (example.mono.includes(verb.conjugation + ' ')) {
                     console.log('example.mono.replace', replace(example.mono, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `))
                     console.log('form:tense', verb.form, verb.tense)
                     phrase = replace(example.mono, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `)
-                    const pronounStr = verb.pronoun === '' ? '' : ` - ${verb.pronoun}`
-                    const verbStr = verb.tense === '' ? '' : ` - ${verb.tense}`
+                    const pronounStr = verb.pronoun === '' ? '' : `:${verb.pronoun}`
+                    const verbStr = verb.tense === '' ? '' : `:${verb.tense}`
                     form_tenses.push(`[${verb.form}${verbStr}${pronounStr}]`)
                 }
             })
+
+            // form tense string from unique array
+            form_tenses = uniq(form_tenses);
+            let tense = '';
+            form_tenses.forEach(item => {
+                tense = tense + ' ' + item;
+            });
+
+            // push into phrases array for output
             phrases.push({
-                keyword: input.query,
-                grammar: item.grammar,
-                meaning: item.meaning,
-                level: example.level,
-                mono: phrase,
-                tenses: uniq(form_tenses),
-                tran: example.tran
+                dict_def: input.query,
+                dict_def_language: input.source,
+                dict_def_grammar: item.grammar,
+                dict_def_meaning: item.meaning,
+                phrase_level: example.level,
+                phrase_mono: phrase,
+                phrase_tran: example.tran,
+                phrase_tense: tense.trim(),
+                flag_novoice: example.level === LEVEL_TYPE.NOVOICE ? 'y' : null,
+                flag_intermd: example.level === LEVEL_TYPE.INTERMEDIATE ? 'y' : null,
+                flag_expert: example.level === LEVEL_TYPE.EXPERT ? 'y' : null,
+                dict_def_conj_uri: `https://conjugator.reverso.net/conjugation-${input.source}-verb-${input.query}.html`,
+                tag_study: '#sdy.phrase',
+                tag_language: `#lng.${input.source}`,
+                tag_level: `#lvl.${example.level.toLowerCase()}`
             })
         })
     })
