@@ -1,5 +1,5 @@
 {
-  "crawledAt": "2018-03-02T12:42:18.538Z",
+  "crawledAt": "2018-03-05T03:18:32.970Z",
   "name": "apify/igsys/linguee",
   "input": {
     "dictionary": "english-french",
@@ -17,8 +17,9 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "Il a demandé à sa sœur de lui passer le sel.",
-          "trans": "He asked his sister to pass him the salt."
+          "tran": "He asked his sister to pass him the salt."
         }
       ]
     },
@@ -27,8 +28,9 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "Je passe beaucoup de temps à l'extérieur.",
-          "trans": "I spend a lot of time outdoors."
+          "tran": "I spend a lot of time outdoors."
         }
       ]
     },
@@ -37,8 +39,9 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "L'entreprise a passé une commande pour de nouvelles chaises.",
-          "trans": "The company placed a purchase order for new chairs."
+          "tran": "The company placed a purchase order for new chairs."
         }
       ]
     },
@@ -47,8 +50,9 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "Le fleuve passe au milieu du plateau.",
-          "trans": "The river runs in the middle of the plateau."
+          "tran": "The river runs in the middle of the plateau."
         }
       ]
     },
@@ -57,8 +61,9 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "Cette station de radio passe tous les derniers tubes.",
-          "trans": "This radio station plays all the latest hits."
+          "tran": "This radio station plays all the latest hits."
         }
       ]
     },
@@ -67,8 +72,9 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "L'élève a passé un mot à son camarade de classe.",
-          "trans": "The pupil passed on a note to his classmate."
+          "tran": "The pupil passed on a note to his classmate."
         }
       ]
     },
@@ -77,8 +83,9 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "Cette chaîne de télévision passe de vieux films tous les lundis.",
-          "trans": "This television channel shows old movies every Monday."
+          "tran": "This television channel shows old movies every Monday."
         }
       ]
     },
@@ -87,8 +94,9 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "Le motif sur les rideaux est passé à cause du soleil.",
-          "trans": "The pattern on the curtains has faded due to the sunlight."
+          "tran": "The pattern on the curtains has faded due to the sunlight."
         }
       ]
     },
@@ -97,8 +105,9 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "Le fondateur de l'entreprise a passé la direction à sa fille.",
-          "trans": "The founder of the company handed the management over to his daughter."
+          "tran": "The founder of the company handed the management over to his daughter."
         }
       ]
     },
@@ -107,15 +116,11 @@
       "grammar": "v",
       "examples": [
         {
+          "level": "INTERMEDIATE",
           "mono": "Deux semaines ont passé avant qu'elle ne reçoive une réponse à sa lettre.",
-          "trans": "Two weeks elapsed before she received a reply to her letter."
+          "tran": "Two weeks elapsed before she received a reply to her letter."
         }
       ]
-    },
-    {
-      "meaning": "go down",
-      "grammar": "v",
-      "examples": []
     },
     {
       "meaning": "passeur",
