@@ -55,13 +55,14 @@ Apify.main(async () => {
         json: true
     };
 
+    // wait until all branches of API request are done, and return results
     const response = process.env.NODE_ENV === 'development'
         ? [def_json, conj_json]
         : await Promise.all([request(act_definition_api_option), request(act_conjugation_wr_api_option)])
     const [def, conj] = response;
-    let phrases = [];
 
     // replace conjugations
+    let phrases = [];
     def.definitions.forEach(item => {
         item.examples.forEach(example => {
             // initialization
