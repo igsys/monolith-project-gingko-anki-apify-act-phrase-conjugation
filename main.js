@@ -66,18 +66,20 @@ Apify.main(async () => {
     def.definitions.forEach(item => {
         item.examples.forEach(example => {
             // initialization
-            let phrase = '';
-            let form_tenses = [];
+            let phrase = ''
+            let form_tenses = []
+            let gender = 'm'
 
             // replace conjugations to anki card syntax
             conj.results.forEach(verb => {
                 if (example.mono.includes(verb.conjugation + ' ')) {
-                    console.log('example.mono.replace', replace(example.mono, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `))
-                    console.log('form:tense', verb.form, verb.tense)
+                    // console.log('example.mono.replace', replace(example.mono, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `))
+                    // console.log('form:tense', verb.form, verb.tense)
                     phrase = replace(example.mono, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `)
                     const pronounStr = verb.pronoun === '' ? '' : `:${verb.pronoun}`
                     const verbStr = verb.tense === '' ? '' : `:${verb.tense}`
                     form_tenses.push(`[${verb.form}${verbStr}${pronounStr}]`)
+                    gender = verb.gender
                 }
             })
 
@@ -92,6 +94,7 @@ Apify.main(async () => {
             phrases.push({
                 dict_def: input.query,
                 dict_def_language: input.source,
+                dict_def_gender: gender,
                 dict_def_grammar: item.grammar,
                 dict_def_meaning: item.meaning,
                 phrase_level: example.level,
