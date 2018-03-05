@@ -70,7 +70,9 @@ Apify.main(async () => {
                     console.log('example.mono.replace', replace(example.mono, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `))
                     console.log('form:tense', verb.form, verb.tense)
                     phrase = replace(example.mono, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `)
-                    form_tenses.push(`[${verb.form} - ${verb.tense} - ${verb.pronoun}]`)
+                    const pronounStr = verb.pronoun === '' ? '' : ` - ${verb.pronoun}`
+                    const verbStr = verb.tense === '' ? '' : ` - ${verb.tense}`
+                    form_tenses.push(`[${verb.form}${verbStr}${pronounStr}]`)
                 }
             })
             phrases.push({
