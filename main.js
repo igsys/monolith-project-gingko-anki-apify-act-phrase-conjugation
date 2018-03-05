@@ -34,6 +34,8 @@ Apify.main(async () => {
         throw new Error('Received invalid input');
     }
 
+    console.log('input', input)
+
     // https://github.com/request/request-promise
     // Run act synchronously
     const act_definition_api_option = {
