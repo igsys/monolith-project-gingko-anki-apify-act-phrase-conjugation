@@ -115,6 +115,8 @@ Apify.main(async () => {
     })
 
     const output = {
+        crawledAt: new Date(),
+        name: 'apify/igsys/phrase-conjugation',
         phrases
     }
     console.log('output', output)
