@@ -42,12 +42,12 @@ Apify.main(async () => {
         body: input,
         json: true
     };
-    const act_conjugation_rv_api_option = {
-        method: 'POST',
-        uri: 'https://api.apify.com/v2/acts/igsys~conjugation-reverso/run-sync?token=fDwYYKCbe2SzRfpTvMk4BGspj',
-        body: input,
-        json: true
-    };
+    // const act_conjugation_rv_api_option = {
+    //     method: 'POST',
+    //     uri: 'https://api.apify.com/v2/acts/igsys~conjugation-reverso/run-sync?token=fDwYYKCbe2SzRfpTvMk4BGspj',
+    //     body: input,
+    //     json: true
+    // };
     const act_conjugation_wr_api_option = {
         method: 'POST',
         uri: 'https://api.apify.com/v2/acts/igsys~conjugation-wordreference/run-sync?token=fDwYYKCbe2SzRfpTvMk4BGspj',
