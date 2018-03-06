@@ -100,6 +100,7 @@ Apify.main(async () => {
                 dict_def_grammar: item.grammar,
                 dict_def_meaning: item.meaning,
                 phrase_level: example.level,
+                phrase_mono_org: example.mono,
                 phrase_mono: phrase,
                 phrase_tran: example.tran,
                 phrase_tense: tense.trim(),
