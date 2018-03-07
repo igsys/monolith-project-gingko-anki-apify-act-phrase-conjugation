@@ -11,6 +11,7 @@ const conj_json = require('./dummy/conj-wr.json');
 
 // Definition of the input
 const INPUT_TYPE = `{
+    id: Maybe String,
     query: String,
     source: String,
     dictionary: String
