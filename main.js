@@ -124,9 +124,10 @@ Apify.main(async () => {
     // }
     const act_conjugation_wr_api_option = {
         method: 'POST',
-        uri: 'https://api.apify.com/v2/acts/igsys~conjugation-wordreference/run-sync?token=fDwYYKCbe2SzRfpTvMk4BGspj',
+        uri: 'https://api.apify.com/v2/acts/igsys~conjugation-wordreference/run-sync?token=fDwYYKCbe2SzRfpTvMk4BGspj&timeout=300',
         body: input.input,
-        json: true
+        json: true,
+        timeout: 300000,
     }
 
     // wait until all branches of API request are done, and return results
@@ -136,6 +137,7 @@ Apify.main(async () => {
     // const [def, conj] = response
 
     const conj = await request(act_conjugation_wr_api_option)
+    console.log('conj', conj)
     const { phrases } = input
 
     let results = []
@@ -146,7 +148,7 @@ Apify.main(async () => {
         let form_tenses = []
         conj.results.forEach(verb => {
             if (item.row03.includes(verb.conjugation + ' ')) {
-                phrase = replace(example.mono, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `)
+                phrase = replace(item.row03, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `)
                 const pronounStr = verb.pronoun === '' ? '' : `:${verb.pronoun}`
                 const verbStr = verb.tense === '' ? '' : `:${verb.tense}`
                 form_tenses.push(`[${verb.form}${verbStr}${pronounStr}]`)
@@ -160,10 +162,10 @@ Apify.main(async () => {
             tense = tense + ' ' + item
         })
 
-        result = Object.assign({}, {
-            row05: replace(item.row03, verb.conjugation + ' ', `{{c1:${verb.conjugation}}} `),
+        result = Object.assign(item, {
+            row05: phrase,
             row12: tense.trim()
-        }, item)
+        })
 
         results.push(result)
     })
@@ -223,8 +225,8 @@ Apify.main(async () => {
     const output = {
         crawledAt: new Date(),
         name: 'apify/igsys/phrase-conjugation',
-        // phrases
-        results
+        input,
+        phrases: results,
     }
     console.log('output', output)
     await Apify.setValue('OUTPUT', output)
