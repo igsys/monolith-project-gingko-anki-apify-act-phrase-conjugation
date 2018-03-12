@@ -1,6 +1,6 @@
 {
-  "name": "act-quick-start",
-  "version": "0.0.1",
+  "name": "monolith-project-gingko-anki-apify-act-phrase-conjugation",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "apify": "^0.4.32",
