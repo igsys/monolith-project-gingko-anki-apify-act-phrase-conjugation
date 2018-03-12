@@ -119,7 +119,7 @@ Apify.main(async () => {
     }
 
     const conj = await request(act_conjugation_wr_api_option)
-    console.log('conj', conj)
+    // console.log('conj', conj)
     const { phrases } = input
 
     let results = []
@@ -158,6 +158,6 @@ Apify.main(async () => {
         input,
         phrases: results,
     }
-    console.log('output', output)
+    // console.log('output', output)
     await Apify.setValue('OUTPUT', output)
 })
