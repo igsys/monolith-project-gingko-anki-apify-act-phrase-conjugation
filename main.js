@@ -22,6 +22,8 @@ const LEVEL_TYPE = {
     EXPERT: 'EXPERT'
 }
 
+
+
 Apify.main(async () => {
     // Fetch the input and check it has a valid format
     // You don't need to check the input, but it's a good practice.
